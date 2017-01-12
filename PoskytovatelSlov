@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+public class PoskytovatelSlov {
+   
+     private String[] HledaneSlovo; //slovo;
+     
+
+    public String PoskytovatelSlova(String slovo) {
+        HledaneSlovo = new String[]{"velbloud","poustni zvire"};
+    }
+
+    public HledaneSlovo getSlovo() {
+       return HledaneSlovo;
+        
+    }
